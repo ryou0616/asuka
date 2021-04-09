@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* display: block; */
+}
+
+a {
+  color : inherit;
+  text-decoration : none;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  text-align: justify;
+  text-justify: distribute;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+body {
+  /* width: 1300px; */
+  margin: 0 auto;
+  font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",Verdana,"ＭＳ Ｐゴシック","MS P Gothic",Arial,Helvetica,sans-serif;
+}
+
+#sbox-cen {
+  /* width: 10px; */
+  height: 24px;
+  padding-left: 160px;
+}
+
+.stext, .summary, .h_seo {
+    color: #aaaaaa;
+    background: none;
+    font-size: 9px;
+    font-weight: bold;
+    display: inline;
+    height: auto;
+}
+
+.h_seo {
+  height: 25px
+}
+
+#header {
+  width: 1300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 90px;
+}
+
+.header p {
+  float: left;
+}
+
+.info {
+  float: right;
+}
+
+#nav ul {
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#nav ul li {
+  float: left;
+}
+#main_img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#main {
+  background: #FFFFFF;
+  width: 940px;
+  padding: 40px 30px 60px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#side .info .address {
+    margin-bottom: 8px;
+    font-size: 1.0em;
+    line-height: 1.8;
+}
+
+#side {
+  float: left;
+  width: 240px;
+}
+
+.s_seo, .address p {
+  font-size: 10px;
+}
+
+#content {
+  float: right;
+  width: 660px;
+  line-height: 1.8;
+  font-size: 1.4em;
+}
+
+#content h3 {
+  background: url(.././img/h3_bg.jpg) left bottom no-repeat;
+  margin-bottom: 30px;
+  padding: 14px 11px 15px 11px;
+  color: #2d2d2d;
+  font-size: 1.285em;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 17.99px;
+}
+
+#greeting {
+    margin-bottom: 85px;
+}
+
+.image {
+  float: left;
+  width: 230px;
+}
+
+.text {
+  font-size: 14px;
+  margin-left: 330px;
+}
+
+.btn {
+  float: right;
+}
+
+.section .img {
+  margin-left: 43px;
+}
+
+.section .item li {
+  background: url(.././img/index08.png) left 10px no-repeat;
+  font-size: 1.142em;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+#content .section .box02 {
+  background: url(.././img/index07.jpg) repeat-y;
+  padding: 28px 245px 16px 40px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+#content .section .box02::after {
+  content: '';
+  width: 250px;
+  height: 218px;
+  background: url(.././img/index_img.png) no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+.tellink, .s-fax img {
+  margin-bottom: 0px;
+}
+.s_seo {
+  margin-bottom: 20px;
+}
+
+#topics {
+  min-height: 200px;
+  margin-bottom: 30px;
+  margin-top: 33px;
+  line-height: 1.6;
+}
+
+#topics dl {
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 10px 8px 10px;
+}
+
+#topics dd {
+  padding: 0 0 0 101px;
+}
+
+#topics dt {
+  float: left;
+}
+
+.news_btn a {
+  display: block;
+  width: 200px;
+  height: 48px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  color: #FFF;
+  background-color: #ED690F;
+  padding: 10px 24px 8px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.news_btn {
+  margin-bottom: 50px;
+}
+
+a:link {
+  color: #2d2d2d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#fnav {
+  background: #13b2ea;
+}
+
+#fnav ul {
+  width: 900px;
+  padding: 17px 30px 11px 35px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.0;
+  overflow: hidden;
+}
+
+#fnav ul li {
+  padding: 0 18px 0 13px;
+  display: inline-block;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+
+}
+
+#fnav ul li a {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+#footer {
+  background: #13b2ea;
+}
+
+#footer .footer p {
+  text-align: center;
+  margin-bottom: 13px;
+  line-height: 1.8;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+#footer address {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+#content .panz {
+  margin-bottom: 28px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+#content .panz li {
+  display: inline-block;
+  display: inline;
+  margin-right: 2px;
+}
+
+#content h4 {
+  background: url(.././img/h4_bg.png) left no-repeat;
+  margin-bottom: 10px;
+  padding: 10px 0px 6px 24px;
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+}
